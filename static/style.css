@@ -1,0 +1,15 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Arial, sans-serif; background: linear-gradient(180deg, #243B55, #141E30); color: #fff; min-height: 100vh; display:flex; justify-content: center; align-items: center; }
+.container { width: min(560px, 92vw); background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.2); border-radius: 16px; padding: 28px; backdrop-filter: blur(6px); box-shadow: 0 12px 30px rgba(0,0,0,.35); }
+.container h1 { font-size: 1.8rem; margin-bottom: 12px; }
+.balance { margin: 16px 0; background: rgba(0,0,0,.34); border-radius: 10px; padding: 14px; font-size: 1.4rem; text-align: center; }
+.form-row { margin-top: 14px; display: flex; gap: 10px; flex-wrap: wrap; }
+input[type="number"] { width: 100%; min-width: 170px; padding: 10px 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,.35); background: rgba(255,255,255,.05); color: #fff; }
+button { border: none; border-radius: 8px; padding: 10px 16px; cursor: pointer; font-weight: 600; transition: transform .12s ease, background .2s ease; }
+button:hover { transform: translateY(-1px); }
+.btn-deposit { background: #2ecc71; color: #0f2f1b; }
+.btn-withdraw { background: #e74c3c; color: #fff; }
+.message { margin-top: 10px; min-height: 1.2rem; font-size: .95rem; padding: 8px; border-radius: 6px; }
+.message.success { color: #d3f8d3; }
+.message.error { color: #ffd4d4; }
+.footer { margin-top: 14px; color: #dce6ff; font-size: .9rem; text-align: center; }
